@@ -8,6 +8,12 @@ My syslog is configured to create logs that follow at YYYY-MM-DD-syslog.log form
 1.  Adjust this script to match the correct log file name.
 2.  Adjust your rsyslog (or other syslog option) to create names in this format.
 
+Place .sh files in appropriate location that is included in $PATH variable.  Otherwise specifiy entire directory path of the file.
+
+uctronics.py can be ran from any location.
+
+ePaper.py is only able to be ran in directory created by manufacturer at this time.  Working on updating script to place it in $PATH location.
+
 -----------------------------------------------------------------------------------------
 I have used the bash scripts with both an e-Paper display and UCTRONICS .96 inch display.
 
